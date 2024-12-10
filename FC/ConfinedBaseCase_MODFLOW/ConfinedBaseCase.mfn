@@ -1,0 +1,18 @@
+# MF2K NAME file
+#
+# Output Files
+GLOBAL          1 "ConfinedBaseCase.glo"
+LIST            2 "ConfinedBaseCase.out"
+DATA(BINARY)    3 "ConfinedBaseCase.hed"
+DATA(BINARY)   40 "ConfinedBaseCase.ccf"
+LMT6            4 "ConfinedBaseCase.lmt"
+#
+# Global Input Files
+DIS             7 "ConfinedBaseCase.dis"
+#
+# Flow Process Input Files
+BAS6            8 "ConfinedBaseCase.ba6"
+LPF             9 "ConfinedBaseCase.lpf"
+OC             10 "ConfinedBaseCase.oc"
+WEL            11 "ConfinedBaseCase.wel"
+PCG            12 "ConfinedBaseCase.pcg"

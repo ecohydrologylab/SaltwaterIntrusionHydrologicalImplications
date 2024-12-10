@@ -1,0 +1,26 @@
+# SEAWAT 4 NAME file
+GLOBAL          1 "..\ConfinedBaseCase_MODFLOW\ConfinedBaseCase.glo"
+LIST            2 "..\ConfinedBaseCase_MODFLOW\ConfinedBaseCase.out"
+DATA(BINARY)    3 "..\ConfinedBaseCase_MODFLOW\ConfinedBaseCase.hed"
+DATA(BINARY)   40 "..\ConfinedBaseCase_MODFLOW\ConfinedBaseCase.ccf"
+LMT6            4 "..\ConfinedBaseCase_MODFLOW\ConfinedBaseCase.lmt"
+#
+# Global Input Files
+DIS             7 "..\ConfinedBaseCase_MODFLOW\ConfinedBaseCase.dis"
+#
+# Flow Process Input Files
+BAS6            8 "..\ConfinedBaseCase_MODFLOW\ConfinedBaseCase.ba6"
+LPF             9 "..\ConfinedBaseCase_MODFLOW\ConfinedBaseCase.lpf"
+OC             10 "..\ConfinedBaseCase_MODFLOW\ConfinedBaseCase.oc"
+WEL            11 "..\ConfinedBaseCase_MODFLOW\ConfinedBaseCase.wel"
+PCG            12 "..\ConfinedBaseCase_MODFLOW\ConfinedBaseCase.pcg"
+#
+# MT3DMS Files
+BTN            13 "..\ConfinedBaseCase_MT3DMS\ConfinedBaseCase.btn"
+ADV            14 "..\ConfinedBaseCase_MT3DMS\ConfinedBaseCase.adv"
+DSP            15 "..\ConfinedBaseCase_MT3DMS\ConfinedBaseCase.dsp"
+SSM            16 "..\ConfinedBaseCase_MT3DMS\ConfinedBaseCase.ssm"
+GCG            17 "..\ConfinedBaseCase_MT3DMS\ConfinedBaseCase.gcg"
+#
+# SEAWAT Files
+VDF            18 "ConfinedBaseCase.vdf"

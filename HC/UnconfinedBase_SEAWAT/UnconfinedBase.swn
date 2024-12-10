@@ -1,0 +1,25 @@
+# SEAWAT 4 NAME file
+GLOBAL          1 "..\UnconfinedBase_MODFLOW\UnconfinedBase.glo"
+LIST            2 "..\UnconfinedBase_MODFLOW\UnconfinedBase.out"
+DATA(BINARY)    3 "..\UnconfinedBase_MODFLOW\UnconfinedBase.hed"
+DATA(BINARY)   40 "..\UnconfinedBase_MODFLOW\UnconfinedBase.ccf"
+LMT6            4 "..\UnconfinedBase_MODFLOW\UnconfinedBase.lmt"
+#
+# Global Input Files
+DIS             7 "..\UnconfinedBase_MODFLOW\UnconfinedBase.dis"
+#
+# Flow Process Input Files
+BAS6            8 "..\UnconfinedBase_MODFLOW\UnconfinedBase.ba6"
+LPF             9 "..\UnconfinedBase_MODFLOW\UnconfinedBase.lpf"
+OC             10 "..\UnconfinedBase_MODFLOW\UnconfinedBase.oc"
+PCG            11 "..\UnconfinedBase_MODFLOW\UnconfinedBase.pcg"
+#
+# MT3DMS Files
+BTN            12 "..\UnconfinedBase_MT3DMS\UnconfinedBase.btn"
+ADV            13 "..\UnconfinedBase_MT3DMS\UnconfinedBase.adv"
+DSP            14 "..\UnconfinedBase_MT3DMS\UnconfinedBase.dsp"
+SSM            15 "..\UnconfinedBase_MT3DMS\UnconfinedBase.ssm"
+GCG            16 "..\UnconfinedBase_MT3DMS\UnconfinedBase.gcg"
+#
+# SEAWAT Files
+VDF            17 "UnconfinedBase.vdf"
